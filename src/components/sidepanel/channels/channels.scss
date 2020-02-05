@@ -1,0 +1,89 @@
+.channels {
+  padding: 30px 0 30px;
+  border-top: 1px solid white;
+
+  h3 {
+    font-size: 16px;
+    color: white;
+    position: relative;
+    margin-bottom: 0;
+
+    [data-type="channel"] {
+      display: inline-block;
+      margin-right: 4px;
+      font-size: 18px;
+    }
+
+    span {
+      position: absolute;
+      cursor: pointer;
+      right: 3px;
+      i {
+        font-size: 21px;
+        position: relative;
+        top: 1px;
+      }
+    }
+  }
+}
+
+.channel-modal {
+  .form-group {
+    margin-bottom: 25px;
+    label {
+      font-size: 12px;
+      font-style: italic;
+    }
+
+    input {
+      height: 40px;
+    }
+
+    .not-valid {
+      border: 2px solid indianred;
+    }
+
+    button {
+      i {
+        font-size: 15px;
+        position: relative;
+        top: 1px;
+      }
+    }
+  }
+}
+
+.render-channel-errors {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  p {
+    text-align: center;
+    background: #ffe5e5;
+    border: 2px solid indianred;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+.display-channels {
+ ul {
+   margin-top: 30px;
+   li {
+     color: white;
+     cursor: pointer;
+     display: block;
+     margin-bottom: 10px;
+     font-size: 17px;
+     span {
+       font-weight: bold;
+       display: inline-block;
+       margin-right: 5px;
+     }
+   }
+ }
+}
+
+.active-channel {
+  font-weight: bold;
+}

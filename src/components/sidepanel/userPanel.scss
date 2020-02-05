@@ -1,0 +1,39 @@
+@import "../../styles/main.scss";
+
+.user-panel {
+  padding-bottom: 30px;
+  .ant-dropdown-link {
+    color: black !important;
+    text-align: center;
+    display: block;
+    color: white !important;
+    span {
+      font-weight: bold;
+    }
+
+    img {
+      width: 22px;
+      height: 22px;
+      margin-right: 3px;
+      position: relative;
+      top: -1px;
+    }
+  }
+}
+
+.user-panel-menu-item {
+  border-bottom: 1px solid $light-grey;
+  &:last-child {
+    border-bottom: none;
+  }
+  a {
+    font-weight: bold;
+    i {
+      font-size: 20px;
+      margin-right: 5px;
+      color: $main-color;
+      position: relative;
+      top: 3px;
+    }
+  }
+}

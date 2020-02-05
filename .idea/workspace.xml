@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="363c6438-6116-40b6-9ff5-57d448a190dd" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1UwdWvGwwRHGEFj774UlDRCUoUL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../social-app" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="363c6438-6116-40b6-9ff5-57d448a190dd" name="Default Changelist" comment="" />
+      <created>1576271626583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576271626583</updated>
+      <workItem from="1576271628238" duration="50000" />
+      <workItem from="1576271678846" duration="40000" />
+      <workItem from="1576313462756" duration="263000" />
+      <workItem from="1576313731778" duration="145000" />
+      <workItem from="1576313882198" duration="90000" />
+      <workItem from="1576314124747" duration="20441000" />
+      <workItem from="1576413742736" duration="4488000" />
+      <workItem from="1576437547867" duration="187000" />
+      <workItem from="1576437740427" duration="120000" />
+      <workItem from="1576437866582" duration="43000" />
+      <workItem from="1576437915904" duration="2085000" />
+      <workItem from="1576444917240" duration="514000" />
+      <workItem from="1576491427171" duration="4373000" />
+      <workItem from="1576510177528" duration="74000" />
+      <workItem from="1576785035246" duration="48000" />
+      <workItem from="1576785454640" duration="1240000" />
+      <workItem from="1576786838464" duration="47000" />
+      <workItem from="1576788173721" duration="35000" />
+      <workItem from="1576947094336" duration="33000" />
+      <workItem from="1576961597230" duration="329000" />
+      <workItem from="1577012870611" duration="14000" />
+      <workItem from="1577380574859" duration="40000" />
+      <workItem from="1577618349538" duration="1231000" />
+      <workItem from="1578089779777" duration="667000" />
+      <workItem from="1578090458958" duration="14000" />
+      <workItem from="1578132016220" duration="32000" />
+      <workItem from="1578141836171" duration="25000" />
+      <workItem from="1578315679256" duration="82000" />
+      <workItem from="1578491762820" duration="42000" />
+      <workItem from="1578774909562" duration="516000" />
+      <workItem from="1578775926713" duration="1145000" />
+      <workItem from="1578782564244" duration="600000" />
+      <workItem from="1578836303037" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576313946582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576313946582" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1577012882928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577012882928" />
+    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576341436167" />
+    <state x="521" y="191" key="SettingsEditor" timestamp="1576438129187">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="521" y="191" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576438129187" />
+    <state x="464" y="309" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576341290207" />
+    <state x="656" y="125" width="627" height="789" key="find.popup" timestamp="1576786665692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="125" width="627" height="789" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576786665692" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1576337525014">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576337525014" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576327183497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1576327183497" />
+  </component>
+</project>

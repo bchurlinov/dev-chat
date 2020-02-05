@@ -1,0 +1,45 @@
+@import "../../styles/main.scss";
+
+.channel-info-wrap {
+  h3 {
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 25px;
+    i {
+      font-size: 22px;
+      display: inline-block;
+      margin-right: 3px;
+    }
+  }
+
+  div {
+    &:nth-child(2) {
+      ul {
+       list-style-type: disc;
+        padding-left: 20px;
+        li {
+          margin-bottom: 5px;
+        }
+      }
+      i {
+        color: $main-color;
+        font-size: 19px;
+        position: relative;
+        top: 2px;
+        display: inline-block;
+        margin-right: 10px;
+      }
+    }
+
+    &:nth-child(3) {
+      p {
+        img {
+          width: 25px;
+          height: 25px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

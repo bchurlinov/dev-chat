@@ -1,0 +1,62 @@
+@import "../../styles/main.scss";
+
+.message-form {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px 25px;
+  margin-top: 25px;
+  border: 1px solid $light-grey;
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+
+  &__item {
+    flex: 0 0 100%;
+
+    .send-message-wrap {
+      position: relative;
+      button {
+        position: absolute;
+        height: 100%;
+        width: 45px;
+        color: white;
+        cursor: pointer;
+        border: 1px solid rgb(217, 217, 217);
+        border-right: none;
+        background: #d3d3d3;
+        z-index: 99;
+        outline: none;
+        @include border-radius(4px 0 0 4px);
+        i {
+          font-size: 20px;
+        }
+      }
+
+      input {
+        height: 40px;
+        padding-left: 60px;
+      }
+
+      .emoji-button-clicked {
+        background: gray;
+      }
+    }
+
+    &:nth-child(2) {
+      text-align: center;
+      margin-top: 10px;
+      button {
+        margin: 10px 10px 0;
+        width: 35%;
+        &:last-of-type {
+          background: #ffa500;
+          border: 1px solid #ffa500;
+          @include transition-2;
+          &:hover {
+            background: #ffb732;
+          }
+        }
+      }
+    }
+  }
+}

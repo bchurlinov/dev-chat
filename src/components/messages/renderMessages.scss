@@ -1,0 +1,50 @@
+@import "../../styles/main.scss";
+
+.render-messages {
+  border: 1px solid $light-grey;
+  overflow: auto;
+  margin-top: 27px;
+  padding: 25px;
+  height: 71%;
+}
+
+.render-messages-wrapper {
+  width: 100%;
+  &__item {
+    display: flex;
+    flex-flow: row wrap;
+    div {
+      margin-bottom: 10px;
+      &:nth-child(1) {
+        flex: 0 0 7%;
+        padding: 5px;
+        img {
+          width: 35px;
+          height: 35px;
+          display: inline-block;
+        }
+      }
+
+      &:nth-child(2) {
+        flex: 0 0 93%;
+        padding: 5px;
+        position: relative;
+        top: -4px;
+        p {
+          margin-bottom: 5px;
+          text-align: justify;
+          span {
+            display: inline-block;
+            color: #bdbdbd;
+            margin-left: 10px;
+            position: relative;
+            top: -1px;
+            font-size: 10px !important;
+            font-style: italic !important;
+            font-weight: normal !important;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import "../../styles/main.scss";
+
+.editUserCard {
+  &__photo {
+    text-align: center;
+    img {
+      @include border-radius(50%);
+      border: 1px solid $light-grey;
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  &__user {
+    margin-top: 25px;
+    .form-group {
+      margin-bottom: 25px;
+      label {
+        font-size: 12px;
+        font-style: italic;
+      }
+
+      input {
+        height: 40px;
+      }
+    }
+  }
+}

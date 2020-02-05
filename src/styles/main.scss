@@ -1,0 +1,149 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+/* Resets */
+
+* {
+  padding: 0;
+  margin: 0;
+  min-height: 0;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.6em;
+  font-family: "Montserrat", sans-serif !important;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  background: red;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: none;
+  background: rgba(0, 0, 0, 0.4);
+  transition: 0.5s all ease-in-out;
+  -webkit-transition: 0.5s all ease-in-out;
+  -moz-transition: 0.5s all ease-in-out;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $main-color;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $main-color;
+}
+
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix:before {
+  display: table;
+  content: " ";
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #7e7e7e;
+  opacity: 1; /* Firefox */
+}
+
+.ant-select-selection--single,
+.ant-select-selection__placeholder {
+  color: #7e7e7e !important;
+}
+
+/* End Resets */
+
+/* App.js */
+
+.chat-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+
+  &__item {
+    &:nth-child(1) {
+      background: $main-color;
+      position: relative;
+      flex: 0 0 25%;
+      padding: 25px;
+      height: 100vh;
+      border-right: 1px solid $light-grey;
+    }
+
+    &:nth-child(2) {
+      background: white;
+      position: relative;
+      flex: 0 0 50%;
+      height: 100vh;
+      padding: 25px;
+    }
+
+    &:nth-child(3) {
+      background: $main-color;
+      position: relative;
+      flex: 0 0 25%;
+      height: 100vh;
+      padding: 25px;
+    }
+  }
+}

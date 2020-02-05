@@ -1,0 +1,82 @@
+.brand {
+  margin: 0 auto;
+  width: 650px;
+  text-align: center;
+  margin-bottom: -75px;
+  margin-top: 75px;
+
+  i {
+    font-size: 100px;
+    color: #1890ff;
+    position: relative;
+    top: 30px;
+  }
+
+  h1 {
+      font-size: 35px;
+      span {
+          color: #1890ff;
+          font-weight: bold;
+      }
+  }
+}
+
+.auth-wrapper {
+  max-width: 550px;
+  padding: 30px 25px;
+  margin: 150px auto;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 10px 10px 15px 0px rgba(237, 237, 237, 1);
+  -moz-box-shadow: 10px 10px 15px 0px rgba(237, 237, 237, 1);
+  box-shadow: 10px 10px 15px 0px rgba(237, 237, 237, 1);
+
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    i {
+      margin-right: 10px;
+      display: inline-block;
+    }
+  }
+
+  .form-group {
+    margin-bottom: 25px;
+    label {
+      font-size: 12px;
+      font-style: italic;
+    }
+
+    input {
+        height: 40px;
+    }
+
+    button {
+        height: 35px;
+        font-size: 15px;
+    }
+  }
+
+  .auth-switch {
+    text-align: center;
+    a {
+      font-style: italic;
+    }
+  }
+
+  .show-auth-errors {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    p {
+      text-align: center;
+      background: #ffe5e5;
+      border: 2px solid indianred;
+      font-weight: bold;
+      padding: 10px;
+    }
+  }
+
+  .not-valid {
+      border: 2px solid indianred;
+  }
+}
